@@ -9,7 +9,7 @@ from scapy.all import *
 class Test(Packet):
 		name = "Test packet"
 		fields_desc = [ ShortField("test1", 1),
-						ShortField("test2", 2) ]
+				ShortField("test2", 2) ]
 
 
 def make_test(x,y):
