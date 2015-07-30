@@ -1,3 +1,3 @@
-From python:2-onbuid
+From python:2.7-onbuild
 
 CMD ["python", "scapyex1.py"]
