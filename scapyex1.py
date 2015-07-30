@@ -1,8 +1,7 @@
 #! /usr/bin/env python
-
 # Set log level to benefit from Scapy warnings
 import logging
-logging.getLogger("scapy").setLevel(2)
+logging.getLogger("scapy").setLevel(1)
 
 from scapy.all import *
 
