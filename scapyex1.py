@@ -2,7 +2,7 @@
 
 # Set log level to benefit from Scapy warnings
 import logging
-logging.getLogger("scapy").setLevel(1)
+logging.getLogger("scapy").setLevel(2)
 
 from scapy.all import *
 
